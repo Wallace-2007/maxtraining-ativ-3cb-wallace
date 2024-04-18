@@ -1,0 +1,147 @@
+#logo {
+    width: 200px;
+    height: 100px;
+}
+
+.img-footer {
+    width: 200px;
+    height: 100px;
+    margin-left: 560px;
+}
+
+
+
+
+/* Add the following media query to adjust the search container width */
+@media screen and (min-width: 768px) {
+
+    .bi-person-circle {
+        margin-right: 50px;
+
+
+    }
+
+    .img-footer {
+        width: 200px;
+        height: 100px;
+        margin-left: 100px;
+    }
+
+    .table {
+        font-size: 14px;
+    }
+
+
+
+
+}
+
+@media screen and (max-width: 787px) {
+    #logo {
+        width: 200px;
+        height: 100px;
+    }
+
+    .table {
+        font-size: 12px;
+    }
+
+    .bi-person-circle {
+        width: 40px;
+        height: 40px;
+        margin-right: 50px;
+    }
+
+}
+
+@media screen and (max-width: 280px){
+    #logo {
+        width: 150px;
+        height: 100px;
+    }
+
+    .table {
+        font-size: 8px;
+    }
+
+    .bi-person-circle {
+        width: 40px;
+        height: 40px;
+        margin-right: 20px;
+    }
+}
+
+.table .table-responsive {
+    font-size: 5px;
+}
+
+
+.search-container input[type=text] {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 50px;
+    box-sizing: border-box;
+}
+
+/* Add the following media query to adjust the input field padding and border */
+
+
+
+
+
+.bg-image {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+    /* Set the aspect ratio of the image (16:9) */
+}
+
+.bg-image img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.bg-light {
+    padding: 25px;
+
+}
+
+footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-content p {
+    margin-right: 20px;
+    flex-grow: 1;
+}
+
+.footer-image {
+    max-width: 20%;
+    height: auto;
+
+}
+
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+    }
+
+    .footer-content p {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
